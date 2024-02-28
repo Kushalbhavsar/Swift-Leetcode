@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4307B6292B8A490400983A1D /* Roman to Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4307B6282B8A490400983A1D /* Roman to Integer.swift */; };
 		43B03CEF293D043E00223864 /* Swift_LeetcodeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B03CEE293D043E00223864 /* Swift_LeetcodeApp.swift */; };
 		43B03CF1293D043E00223864 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B03CF0293D043E00223864 /* ContentView.swift */; };
 		43B03CF3293D043F00223864 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43B03CF2293D043F00223864 /* Assets.xcassets */; };
@@ -15,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4307B6282B8A490400983A1D /* Roman to Integer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Roman to Integer.swift"; sourceTree = "<group>"; };
+		4307B62A2B8A492A00983A1D /* Roman to Integer.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Roman to Integer.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		43B03CEB293D043E00223864 /* Swift-Leetcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-Leetcode.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		43B03CEE293D043E00223864 /* Swift_LeetcodeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_LeetcodeApp.swift; sourceTree = "<group>"; };
 		43B03CF0293D043E00223864 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -35,6 +38,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4307B6272B8A486800983A1D /* 0013 - Roman to Integer */ = {
+			isa = PBXGroup;
+			children = (
+				4307B6282B8A490400983A1D /* Roman to Integer.swift */,
+				4307B62A2B8A492A00983A1D /* Roman to Integer.playground */,
+			);
+			path = "0013 - Roman to Integer";
+			sourceTree = "<group>";
+		};
 		43B03CE2293D043E00223864 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				43B03CFE293D049F00223864 /* 0001 - Two Sum */,
+				4307B6272B8A486800983A1D /* 0013 - Roman to Integer */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -169,6 +182,7 @@
 				43B03D00293D04AD00223864 /* Two Sum.swift in Sources */,
 				43B03CF1293D043E00223864 /* ContentView.swift in Sources */,
 				43B03CEF293D043E00223864 /* Swift_LeetcodeApp.swift in Sources */,
+				4307B6292B8A490400983A1D /* Roman to Integer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
