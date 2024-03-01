@@ -21,6 +21,7 @@
 		4307B62A2B8A492A00983A1D /* Roman to Integer.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Roman to Integer.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		431D34E12B924A6C0059228D /* Longest Common Prefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Longest Common Prefix.swift"; sourceTree = "<group>"; };
 		431D34E32B924A750059228D /* Longest Common Prefix.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Longest Common Prefix.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		43AC9C1A2B9254B000BDC986 /* Valid Parentheses.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Valid Parentheses.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		43B03CEB293D043E00223864 /* Swift-Leetcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-Leetcode.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		43B03CEE293D043E00223864 /* Swift_LeetcodeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_LeetcodeApp.swift; sourceTree = "<group>"; };
 		43B03CF0293D043E00223864 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,6 +58,14 @@
 				431D34E32B924A750059228D /* Longest Common Prefix.playground */,
 			);
 			path = "0014 - Longest Common Prefix";
+			sourceTree = "<group>";
+		};
+		43AC9C192B92548A00BDC986 /* 0020 - Valid Parentheses */ = {
+			isa = PBXGroup;
+			children = (
+				43AC9C1A2B9254B000BDC986 /* Valid Parentheses.playground */,
+			);
+			path = "0020 - Valid Parentheses";
 			sourceTree = "<group>";
 		};
 		43B03CE2293D043E00223864 = {
@@ -109,6 +118,7 @@
 				43B03CFE293D049F00223864 /* 0001 - Two Sum */,
 				4307B6272B8A486800983A1D /* 0013 - Roman to Integer */,
 				431D34E02B924A450059228D /* 0014 - Longest Common Prefix */,
+				43AC9C192B92548A00BDC986 /* 0020 - Valid Parentheses */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
