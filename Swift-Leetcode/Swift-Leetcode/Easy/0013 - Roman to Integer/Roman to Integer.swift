@@ -40,7 +40,7 @@ C can be placed before D (500) and M (1000) to make 400 and 900.
 */
 
 
-// Brute-force Algorithm
+// Brute-force Solution
 
 /*
  ----- ---------- ---------- ---------- ---------- --------- ----------- ----------

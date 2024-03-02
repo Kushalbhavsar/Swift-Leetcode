@@ -19,6 +19,7 @@
 /* Begin PBXFileReference section */
 		4307B6282B8A490400983A1D /* Roman to Integer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Roman to Integer.swift"; sourceTree = "<group>"; };
 		4307B62A2B8A492A00983A1D /* Roman to Integer.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Roman to Integer.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		430D88102B937FCB009227FA /* Squares of a Soretd Array.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Squares of a Soretd Array.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		431D34E12B924A6C0059228D /* Longest Common Prefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Longest Common Prefix.swift"; sourceTree = "<group>"; };
 		431D34E32B924A750059228D /* Longest Common Prefix.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Longest Common Prefix.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		43AC9C1A2B9254B000BDC986 /* Valid Parentheses.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Valid Parentheses.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -49,6 +50,14 @@
 				4307B62A2B8A492A00983A1D /* Roman to Integer.playground */,
 			);
 			path = "0013 - Roman to Integer";
+			sourceTree = "<group>";
+		};
+		430D880F2B937FA4009227FA /* 0977 - Squares of a Soretd Array */ = {
+			isa = PBXGroup;
+			children = (
+				430D88102B937FCB009227FA /* Squares of a Soretd Array.playground */,
+			);
+			path = "0977 - Squares of a Soretd Array";
 			sourceTree = "<group>";
 		};
 		431D34E02B924A450059228D /* 0014 - Longest Common Prefix */ = {
@@ -119,6 +128,7 @@
 				4307B6272B8A486800983A1D /* 0013 - Roman to Integer */,
 				431D34E02B924A450059228D /* 0014 - Longest Common Prefix */,
 				43AC9C192B92548A00BDC986 /* 0020 - Valid Parentheses */,
+				430D880F2B937FA4009227FA /* 0977 - Squares of a Soretd Array */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
