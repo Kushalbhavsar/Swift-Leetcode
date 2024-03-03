@@ -22,6 +22,7 @@
 		430D88102B937FCB009227FA /* Squares of a Soretd Array.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Squares of a Soretd Array.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		431D34E12B924A6C0059228D /* Longest Common Prefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Longest Common Prefix.swift"; sourceTree = "<group>"; };
 		431D34E32B924A750059228D /* Longest Common Prefix.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Longest Common Prefix.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		43A022B42B94B91E00C6A00C /* Remove Nth Node From End of List.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Remove Nth Node From End of List.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		43AC9C1A2B9254B000BDC986 /* Valid Parentheses.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Valid Parentheses.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		43B03CEB293D043E00223864 /* Swift-Leetcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-Leetcode.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		43B03CEE293D043E00223864 /* Swift_LeetcodeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_LeetcodeApp.swift; sourceTree = "<group>"; };
@@ -69,6 +70,22 @@
 			path = "0014 - Longest Common Prefix";
 			sourceTree = "<group>";
 		};
+		43A022B22B94B8B500C6A00C /* Medium */ = {
+			isa = PBXGroup;
+			children = (
+				43A022B32B94B8D600C6A00C /* 0019 - Remove Nth Node From End of List */,
+			);
+			path = Medium;
+			sourceTree = "<group>";
+		};
+		43A022B32B94B8D600C6A00C /* 0019 - Remove Nth Node From End of List */ = {
+			isa = PBXGroup;
+			children = (
+				43A022B42B94B91E00C6A00C /* Remove Nth Node From End of List.playground */,
+			);
+			path = "0019 - Remove Nth Node From End of List";
+			sourceTree = "<group>";
+		};
 		43AC9C192B92548A00BDC986 /* 0020 - Valid Parentheses */ = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +116,7 @@
 				43B03CF4293D043F00223864 /* Preview Content */,
 				43B03CFC293D046500223864 /* App */,
 				43B03CFD293D047500223864 /* Easy */,
+				43A022B22B94B8B500C6A00C /* Medium */,
 			);
 			path = "Swift-Leetcode";
 			sourceTree = "<group>";
