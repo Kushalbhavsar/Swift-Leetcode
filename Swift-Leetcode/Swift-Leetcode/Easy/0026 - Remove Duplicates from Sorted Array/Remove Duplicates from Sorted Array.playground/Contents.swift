@@ -62,6 +62,13 @@ func removeDuplicates(_ nums: inout [Int]) -> Int {
     return indexToUpdate
 }
 
+/*
+ ----- ---------- ---------- ---------- ---------- --------- ----------- ----------
+ Time Complexity: O(n) ~ it iterates through the entire array once
+ Space Complexity: O(1)
+ ----- ---------- ---------- ---------- ---------- --------- ----------- ----------
+ */
+
 var arr = [1,1,2]
 removeDuplicates(&arr)
 print(arr)

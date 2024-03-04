@@ -25,6 +25,7 @@
 		431D34E32B924A750059228D /* Longest Common Prefix.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Longest Common Prefix.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		433FDA9A2B98E1B70058BFC3 /* Merge Two Sorted List.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Merge Two Sorted List.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		433FDA9C2B9B74EE0058BFC3 /* Remove Duplicates from Sorted Array.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Remove Duplicates from Sorted Array.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		4347CC712B95FCC70032ED54 /* Palindrome Number.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Palindrome Number.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		43A022B42B94B91E00C6A00C /* Remove Nth Node From End of List.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Remove Nth Node From End of List.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		43AC9C1A2B9254B000BDC986 /* Valid Parentheses.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Valid Parentheses.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		43B03CEB293D043E00223864 /* Swift-Leetcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-Leetcode.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,6 +96,14 @@
 				433FDA9C2B9B74EE0058BFC3 /* Remove Duplicates from Sorted Array.playground */,
 			);
 			path = "0026 - Remove Duplicates from Sorted Array";
+			sourceTree = "<group>";
+		};
+		4347CC702B95FC760032ED54 /* 0009 - Palindrome Number */ = {
+			isa = PBXGroup;
+			children = (
+				4347CC712B95FCC70032ED54 /* Palindrome Number.playground */,
+			);
+			path = "0009 - Palindrome Number";
 			sourceTree = "<group>";
 		};
 		43A022B22B94B8B500C6A00C /* Medium */ = {
@@ -170,6 +179,7 @@
 			isa = PBXGroup;
 			children = (
 				43B03CFE293D049F00223864 /* 0001 - Two Sum */,
+				4347CC702B95FC760032ED54 /* 0009 - Palindrome Number */,
 				4307B6272B8A486800983A1D /* 0013 - Roman to Integer */,
 				431D34E02B924A450059228D /* 0014 - Longest Common Prefix */,
 				433FDA992B98E18F0058BFC3 /* 0021 - Merge Two Sorted List */,
