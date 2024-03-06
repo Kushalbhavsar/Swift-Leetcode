@@ -42,7 +42,7 @@ public class ListNode {
     }
 }
 
-// Solution 1 - Two Pointer Approch
+// Solution 1 - Two Pointer Approach
 
 /*
  ----- ---------- ---------- ---------- ---------- --------- ----------- ----------

@@ -17,11 +17,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		43060F622B961BC00085F9AC /* Maximum Odd Binary Number.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Maximum Odd Binary Number.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		4307B6282B8A490400983A1D /* Roman to Integer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Roman to Integer.swift"; sourceTree = "<group>"; };
 		4307B62A2B8A492A00983A1D /* Roman to Integer.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Roman to Integer.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		430D88102B937FCB009227FA /* Squares of a Soretd Array.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Squares of a Soretd Array.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		431D34E12B924A6C0059228D /* Longest Common Prefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Longest Common Prefix.swift"; sourceTree = "<group>"; };
 		431D34E32B924A750059228D /* Longest Common Prefix.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Longest Common Prefix.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		433FDA9A2B98E1B70058BFC3 /* Merge Two Sorted List.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Merge Two Sorted List.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		43A022B42B94B91E00C6A00C /* Remove Nth Node From End of List.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Remove Nth Node From End of List.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		43AC9C1A2B9254B000BDC986 /* Valid Parentheses.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Valid Parentheses.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		43B03CEB293D043E00223864 /* Swift-Leetcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-Leetcode.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +46,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		43060F612B961B930085F9AC /* 2864 - Maximum Odd Binary Number */ = {
+			isa = PBXGroup;
+			children = (
+				43060F622B961BC00085F9AC /* Maximum Odd Binary Number.playground */,
+			);
+			path = "2864 - Maximum Odd Binary Number";
+			sourceTree = "<group>";
+		};
 		4307B6272B8A486800983A1D /* 0013 - Roman to Integer */ = {
 			isa = PBXGroup;
 			children = (
@@ -68,6 +78,14 @@
 				431D34E32B924A750059228D /* Longest Common Prefix.playground */,
 			);
 			path = "0014 - Longest Common Prefix";
+			sourceTree = "<group>";
+		};
+		433FDA992B98E18F0058BFC3 /* 0021 - Merge Two Sorted List */ = {
+			isa = PBXGroup;
+			children = (
+				433FDA9A2B98E1B70058BFC3 /* Merge Two Sorted List.playground */,
+			);
+			path = "0021 - Merge Two Sorted List";
 			sourceTree = "<group>";
 		};
 		43A022B22B94B8B500C6A00C /* Medium */ = {
@@ -145,8 +163,10 @@
 				43B03CFE293D049F00223864 /* 0001 - Two Sum */,
 				4307B6272B8A486800983A1D /* 0013 - Roman to Integer */,
 				431D34E02B924A450059228D /* 0014 - Longest Common Prefix */,
+				433FDA992B98E18F0058BFC3 /* 0021 - Merge Two Sorted List */,
 				43AC9C192B92548A00BDC986 /* 0020 - Valid Parentheses */,
 				430D880F2B937FA4009227FA /* 0977 - Squares of a Soretd Array */,
+				43060F612B961B930085F9AC /* 2864 - Maximum Odd Binary Number */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
