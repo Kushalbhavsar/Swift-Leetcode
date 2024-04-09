@@ -28,6 +28,7 @@
 		4347CC712B95FCC70032ED54 /* Palindrome Number.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Palindrome Number.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		436D12602BC2752300ACF09D /* Remove Element.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Remove Element.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		436D12622BC46D1F00ACF09D /* Find the index of First Occurrence in a String.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Find the index of First Occurrence in a String.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		436D12642BC6F9F500ACF09D /* Repeated Substring Pattern.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Repeated Substring Pattern.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		43A022B42B94B91E00C6A00C /* Remove Nth Node From End of List.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Remove Nth Node From End of List.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		43AC9C1A2B9254B000BDC986 /* Valid Parentheses.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Valid Parentheses.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		43B03CEB293D043E00223864 /* Swift-Leetcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-Leetcode.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -124,6 +125,14 @@
 			path = "0028 - Find the index of First Occurrence in a String";
 			sourceTree = "<group>";
 		};
+		436D12632BC6F9BA00ACF09D /* 0459 - Repeated Substring Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				436D12642BC6F9F500ACF09D /* Repeated Substring Pattern.playground */,
+			);
+			path = "0459 - Repeated Substring Pattern";
+			sourceTree = "<group>";
+		};
 		43A022B22B94B8B500C6A00C /* Medium */ = {
 			isa = PBXGroup;
 			children = (
@@ -205,6 +214,7 @@
 				433FDA9B2B9B74AF0058BFC3 /* 0026 - Remove Duplicates from Sorted Array */,
 				436D125F2BC274FB00ACF09D /* 0027 - Remove Element */,
 				436D12612BC46CD300ACF09D /* 0028 - Find the index of First Occurrence in a String */,
+				436D12632BC6F9BA00ACF09D /* 0459 - Repeated Substring Pattern */,
 				430D880F2B937FA4009227FA /* 0977 - Squares of a Soretd Array */,
 				43060F612B961B930085F9AC /* 2864 - Maximum Odd Binary Number */,
 			);
