@@ -38,12 +38,14 @@ func searchInsert(_ nums: [Int], _ target: Int) -> Int {
     var right = nums.count - 1
     
     while left <= right {
+        // Adding two really big Ints might cause `Memory Overflow`
+        // So instead of adding them like (Left + Right) we will find the distance between two numbers & devide them by two.
         let mid = left + (right - left) / 2
         
         if nums[mid] > target {
-            right -= 1
+            right = mid - 1
         } else if nums[mid] < target {
-            left += 1
+            left =  mid + 1
         } else {
             // We are at target's index
             return mid

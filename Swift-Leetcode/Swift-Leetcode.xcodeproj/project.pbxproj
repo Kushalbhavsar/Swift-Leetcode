@@ -26,6 +26,7 @@
 		433FDA9A2B98E1B70058BFC3 /* Merge Two Sorted List.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Merge Two Sorted List.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		433FDA9C2B9B74EE0058BFC3 /* Remove Duplicates from Sorted Array.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Remove Duplicates from Sorted Array.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		4347CC712B95FCC70032ED54 /* Palindrome Number.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Palindrome Number.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		434ED7F72BC8606B0041CAEF /* Length of Last Word.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Length of Last Word.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		436D12602BC2752300ACF09D /* Remove Element.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Remove Element.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		436D12622BC46D1F00ACF09D /* Find the index of First Occurrence in a String.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Find the index of First Occurrence in a String.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		436D12642BC6F9F500ACF09D /* Repeated Substring Pattern.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Repeated Substring Pattern.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -108,6 +109,14 @@
 				4347CC712B95FCC70032ED54 /* Palindrome Number.playground */,
 			);
 			path = "0009 - Palindrome Number";
+			sourceTree = "<group>";
+		};
+		434ED7F62BC860500041CAEF /* 0059 - Length of Last Word */ = {
+			isa = PBXGroup;
+			children = (
+				434ED7F72BC8606B0041CAEF /* Length of Last Word.playground */,
+			);
+			path = "0059 - Length of Last Word";
 			sourceTree = "<group>";
 		};
 		436D125F2BC274FB00ACF09D /* 0027 - Remove Element */ = {
@@ -224,6 +233,7 @@
 				436D125F2BC274FB00ACF09D /* 0027 - Remove Element */,
 				436D12612BC46CD300ACF09D /* 0028 - Find the index of First Occurrence in a String */,
 				436D12652BC70E3000ACF09D /* 0035 - Search Insert Position */,
+				434ED7F62BC860500041CAEF /* 0059 - Length of Last Word */,
 				436D12632BC6F9BA00ACF09D /* 0459 - Repeated Substring Pattern */,
 				430D880F2B937FA4009227FA /* 0977 - Squares of a Soretd Array */,
 				43060F612B961B930085F9AC /* 2864 - Maximum Odd Binary Number */,
