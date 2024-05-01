@@ -27,6 +27,7 @@
 		433FDA9C2B9B74EE0058BFC3 /* Remove Duplicates from Sorted Array.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Remove Duplicates from Sorted Array.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		4347CC712B95FCC70032ED54 /* Palindrome Number.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Palindrome Number.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		434ED7F72BC8606B0041CAEF /* Length of Last Word.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Length of Last Word.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		435E3EB52BE2BA850092ED5A /* Reverse Prefix of Word.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Reverse Prefix of Word.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		436D12602BC2752300ACF09D /* Remove Element.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Remove Element.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		436D12622BC46D1F00ACF09D /* Find the index of First Occurrence in a String.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Find the index of First Occurrence in a String.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		436D12642BC6F9F500ACF09D /* Repeated Substring Pattern.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Repeated Substring Pattern.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -40,6 +41,8 @@
 		43B03CF5293D043F00223864 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		43B03CFF293D04AD00223864 /* Two Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Two Sum.swift"; sourceTree = "<group>"; };
 		43B03D01293D04CF00223864 /* Two Sum.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Two Sum.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		43B8C5BB2BD3C0C40084062E /* Tree.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Tree.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		43B8C5C02BD8283F0084062E /* Binary Tree.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Binary Tree.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,14 @@
 				434ED7F72BC8606B0041CAEF /* Length of Last Word.playground */,
 			);
 			path = "0059 - Length of Last Word";
+			sourceTree = "<group>";
+		};
+		435E3EB42BE2BA570092ED5A /* 2000 - Reverse Prefix of Word */ = {
+			isa = PBXGroup;
+			children = (
+				435E3EB52BE2BA850092ED5A /* Reverse Prefix of Word.playground */,
+			);
+			path = "2000 - Reverse Prefix of Word";
 			sourceTree = "<group>";
 		};
 		436D125F2BC274FB00ACF09D /* 0027 - Remove Element */ = {
@@ -198,6 +209,8 @@
 				43B03CFC293D046500223864 /* App */,
 				43B03CFD293D047500223864 /* Easy */,
 				43A022B22B94B8B500C6A00C /* Medium */,
+				43B8C5B92BD3C09E0084062E /* Hard */,
+				43B8C5B82BD3C0690084062E /* Data Structures */,
 			);
 			path = "Swift-Leetcode";
 			sourceTree = "<group>";
@@ -236,6 +249,7 @@
 				434ED7F62BC860500041CAEF /* 0059 - Length of Last Word */,
 				436D12632BC6F9BA00ACF09D /* 0459 - Repeated Substring Pattern */,
 				430D880F2B937FA4009227FA /* 0977 - Squares of a Soretd Array */,
+				435E3EB42BE2BA570092ED5A /* 2000 - Reverse Prefix of Word */,
 				43060F612B961B930085F9AC /* 2864 - Maximum Odd Binary Number */,
 			);
 			path = Easy;
@@ -248,6 +262,30 @@
 				43B03D01293D04CF00223864 /* Two Sum.playground */,
 			);
 			path = "0001 - Two Sum";
+			sourceTree = "<group>";
+		};
+		43B8C5B82BD3C0690084062E /* Data Structures */ = {
+			isa = PBXGroup;
+			children = (
+				43B8C5BA2BD3C0B00084062E /* Tree */,
+			);
+			path = "Data Structures";
+			sourceTree = "<group>";
+		};
+		43B8C5B92BD3C09E0084062E /* Hard */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Hard;
+			sourceTree = "<group>";
+		};
+		43B8C5BA2BD3C0B00084062E /* Tree */ = {
+			isa = PBXGroup;
+			children = (
+				43B8C5BB2BD3C0C40084062E /* Tree.playground */,
+				43B8C5C02BD8283F0084062E /* Binary Tree.playground */,
+			);
+			path = Tree;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
